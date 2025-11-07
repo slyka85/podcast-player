@@ -1,0 +1,25 @@
+{
+  "name": "podcast-player",
+  "version": "1.0.0",
+  "description": "Podcast player progressive web app",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slyka85/podcast-player.git"
+  },
+  "author": "Anya Melnyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slyka85/podcast-player/issues"
+  },
+  "homepage": "https://github.com/slyka85/podcast-player#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
